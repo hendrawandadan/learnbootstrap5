@@ -1,0 +1,152 @@
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 0;
+}
+.navbar{
+  padding: 0 20% 20% 15%;
+  margin-bottom: 5%;
+
+  }
+.logo{
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row{
+
+  padding: 0 15%;
+  margin-bottom: 5%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5 rem;
+    line-height: 1.5;
+    color: #fff;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+.navbar-brand{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: cursive;
+}
+.button-atas{
+  margin:5% 0;
+}
+.button-download-apple{
+  margin-right: 3%;
+}
+.image-dog{
+  width:20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  top: 23%;
+}
+.navbar-item{
+  padding: 0 20px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+#features{
+  padding: 7% 3% 3%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+#testimonials{
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing{
+  padding: 7% 3%;
+  text-align: center;
+}
+
+.col{
+  border: 5px;
+}
+
+.title-pricing{
+  margin-bottom: 4%;
+}
+#cta{
+  padding: 7% 3%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+.button-bawah{
+  margin-top: 3%;
+}
+.cta-text{
+  color: #fff;
+}
+#footer{
+  text-align: center;
+  padding: 3% 3%;
+}
+.logo-media{
+  margin: 20px 10px;
+}
+@media (max-width: 992px){
+  #title{
+    text-align: center;
+  }
+  .navbar{
+    padding: 0 5% 0 5%;
+  }
+  .button-atas{
+    margin:3% 0;
+  }
+  .image-dog{
+    transform: rotate(0);
+    position: static;
+    width: 40%;
+    margin-bottom: -7%;
+  }
+}
